@@ -1,0 +1,12 @@
+D:\Project\iTron\trunk\Software\Debug\Config\bin\Debug\Config.exe.config
+D:\Project\iTron\trunk\Software\Debug\Config\bin\Debug\Config.exe
+D:\Project\iTron\trunk\Software\Debug\Config\bin\Debug\Config.pdb
+D:\Project\iTron\trunk\Software\Debug\Config\bin\Debug\DotNetSpeech.dll
+D:\Project\iTron\trunk\Software\Debug\Config\bin\Debug\IrisSkin2.dll
+D:\Project\iTron\trunk\Software\Debug\Config\obj\Debug\Debug.csprojResolveAssemblyReference.cache
+D:\Project\iTron\trunk\Software\Debug\Config\obj\Debug\Config.frmConfig.resources
+D:\Project\iTron\trunk\Software\Debug\Config\obj\Debug\RelayMgr.frmDebug.resources
+D:\Project\iTron\trunk\Software\Debug\Config\obj\Debug\Config.Properties.Resources.resources
+D:\Project\iTron\trunk\Software\Debug\Config\obj\Debug\Debug.csproj.GenerateResource.Cache
+D:\Project\iTron\trunk\Software\Debug\Config\obj\Debug\Config.exe
+D:\Project\iTron\trunk\Software\Debug\Config\obj\Debug\Config.pdb

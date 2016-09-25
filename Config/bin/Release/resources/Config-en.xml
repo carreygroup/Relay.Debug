@@ -1,0 +1,214 @@
+<?xml version = "1.0" encoding = "gb2312"?>
+<AirControl language="English">
+  <Menu>
+    <File>
+      <Item id="0" key="mnu_File" value="File" />
+      <Item id="1" key="mnu_BeginListen" value="Join" />
+      <Item id="2" key="mnu_Exit" value="Exit" />
+    </File>
+    <View>
+      <Item id="0" key="mnu_View" value="View" />
+      <Item id="1" key="mnu_TaskMgr" value="Task Manager" />
+      <Item id="2" key="mnu_InputMgr" value="DI Manager" />
+      <Item id="3" key="mnu_ShowTimer" value="Show Timer" />
+    </View>
+    <Settings>
+      <Item id="0" key="mnu_Settings" value="Settings" />
+      <Item id="1" key="mnu_System" value="System" />
+      <Item id="2" key="mnu_pool" value="Connection Pool" />
+      <Item id="2" key="mnu_ConnecSetting" value="Connection" />
+    </Settings>
+    <Help>
+      <Item id="0" key="mnu_Help" value="Help" />
+      <Item id="1" key="mnu_About" value="About..." />
+      <Item id="2" key="mnu_Help_Me" value="Help" />
+    </Help>
+  </Menu>
+  <Toolbar>
+    <Statusbar>
+      <Item id="1" key="StatusItem1" value="用户名: " />
+      <Item id="2" key="StatusItem2" value="用户组: " />
+      <Item id="3" key="StatusItem3" value="上次登录时间: " />
+      <Item id="4" key="StatusItem4" value="本次登录时间:" />
+    </Statusbar>
+  </Toolbar>
+  <Form>
+    <frmConfig>
+      <Item id="0" key="frmConfig" value="Board Configuration" />
+      <Item id="1" key="rbCOM" value="COM" />
+      <Item id="2" key="rbNetWork" value="Network" />
+      <Item id="3" key="label1" value="Port" />
+      <Item id="4" key="btnBeginListen" value="Connect" />
+      <Item id="5" key="btnEndListen" value="Disconnect" />
+      <Item id="6" key="tabPage1" value="Property" />
+      <Item id="7" key="tabPage2" value="Command" />
+      <Item id="8" key="btnRefresh" value="Search" />
+      <Item id="9" key="btnClose" value="Exit" />
+      <Item id="10" key="btnSave" value="Save" />
+      <Item id="11" key="label2" value="Address" />
+      <Item id="12" key="label5" value="Baud Rate" />
+      <Item id="13" key="btn_SetBand" value="Set" />
+      <Item id="14" key="label4" value="Function switch" />
+      <Item id="15" key="cb_HoldPower" value="Hold Power" />
+      <Item id="16" key="ckb_DI" value="Allow DI" />
+      <Item id="17" key="ckb_DO" value="Allow DO" />
+      <Item id="18" key="ckb_RF" value="Allow RF" />
+      <Item id="19" key="btn_SaveCMD" value="Save" />
+    </frmConfig>
+    
+    <frmPWD>
+      <Item id="0" key="frmPWD" value="Password" />
+      <Item id="1" key="btn_UnLock"  value="Unlock" />
+      <Item id="2" key="btn_Cancel" value="Cancel" />
+      <Item id="3" key="label2" value="Unlock Code：" />
+    </frmPWD>
+    
+    <frmVItem>
+      <Item id="0" key="frmVItem" value="Scene" />
+      <Item id="1" key="label1" value="Group" />
+      <Item id="2" key="label3" value="Name" />
+      <Item id="3" key="groupBox1" value="Port" />
+      <Item id="4" key="radioButton1" value="Use Connection Pool" />
+      <Item id="5" key="rb_COM" value="Use COM" />
+      <Item id="6" key="rb_Net" value="Use Netword" />
+      <Item id="7" key="btn_OK" value="OK" />
+      <Item id="8" key="btn_Cancel" value="Cancel" />
+    </frmVItem>
+    
+    <frmSystem>
+      <Item id="0" key="frmSystem" value="Settings" />
+      <Item id="1" key="tabPage3" value="General" />
+      <Item id="2" key="tabPage2" value="DO Icon" />
+      <Item id="3" key="tabPage1" value="DI Icon" />
+      <Item id="4" key="cb_AutoRun" value="AutoRun" />
+      <Item id="5" key="cb_Connection_Pool" value="Use Connection Pool" />
+      <Item id="6" key="label7" value="Password" />
+      <Item id="7" key="btn_SetPassword" value="Set" />
+      <Item id="8" key="label1" value="OFF" />
+      <Item id="9" key="label2" value="ON" />
+      <Item id="10" key="label3" value="Unknown" />
+      <Item id="11" key="label6" value="Invalid" />
+      <Item id="12" key="label5" value="valid" />
+      <Item id="13" key="label4" value="Unknown" />
+      <Item id="14" key="btn_OK" value="OK" />
+      <Item id="15" key="btn_Cancel" value="Cancel" />
+    </frmSystem>
+    
+    <frmPool>
+      <Item id="0" key="frmPool" value="Connection Pool" />
+      <Item id="1" key="groupBox1" value="COM Pool" />
+      <Item id="2" key="groupBox2" value="Network Pool" />
+      <Item id="3" key="btn_COM_Add" value="Add" />
+      <Item id="4" key="btn_COM_Remove" value="Remove" />
+      <Item id="5" key="btn_NetWork_Add" value="Add" />
+      <Item id="6" key="btn_NetWork_Remove" value="Remove" />
+      <Item id="7" key="btn_Close" value="Close" />
+    </frmPool>
+    
+    <frmDevType>
+      <Item id="0" key="frmDevType" value="Group" />
+      <Item id="1" key="gbTT" value="Group" />
+      <Item id="2" key="lblTTName" value="Name" />
+      <Item id="3" key="btnOK" value="OK" />
+      <Item id="4" key="btnCancel" value="Cancel" />
+    </frmDevType>
+    
+    <frmDev>
+      <Item id="0" key="frmDev" value="Item" />
+      <Item id="1" key="lbl_Group" value="Group" />
+      <Item id="2" key="label1" value="Name" />
+      <Item id="3" key="label5" value="Type" />
+      <Item id="4" key="label2" value="Address" />
+      <Item id="5" key="label3" value="Line" />
+      <Item id="6" key="lb_Action" value="Default Action" />
+      <Item id="7" key="label4" value="Jog Delay" />
+      <Item id="8" key="ckb_ThresholdH" value="Higher than" />
+      <Item id="9" key="ckb_ThresholdL" value="Lower than" />
+      <Item id="10" key="btnOK" value="OK" />
+      <Item id="11" key="btnCancel" value="Cancel" />
+    </frmDev>
+    
+    <frmCommands>
+      <Item id="0" key="frmCommands" value="Command" />
+      <Item id="1" key="columnHeader1" value="Command" />
+      <Item id="2" key="btn_AddNew" value="New" />
+      <Item id="3" key="btn_Remove" value="Remove" />
+      <Item id="4" key="btn_Cancel" value="Close" />
+    </frmCommands>
+    
+    <frmAddTask>
+      <Item id="0" key="frmAddTask" value="Task" />
+      <Item id="1" key="lblTitle" value="Task" />
+      <Item id="2" key="groupBox1" value="Plan" />
+      <Item id="3" key="label1" value="Type" />
+      <Item id="4" key="label2" value="Time" />
+      <Item id="5" key="label3" value="Line" />
+      <Item id="6" key="groupBox2" value="Action" />
+    </frmAddTask>
+    
+    <frmAction>
+      <Item id="0" key="frmAction" value="Action" />
+      <Item id="1" key="rb_Custom" value="Custom" />
+      <Item id="2" key="gb_Custom" value="Custom" />
+      <Item id="3" key="label5" value="CMD:" />
+      <Item id="4" key="rb_RunItem" value="Run Item" />
+      <Item id="5" key="gb_RunITEM" value="Run Item" />
+      <Item id="6" key="label3" value="Item" />
+      <Item id="7" key="label4" value="Action" />
+      <Item id="8" key="rb_RunGroup" value="Run Group" />
+      <Item id="9" key="gb_Group" value="Group" />
+      <Item id="10" key="rb_RunCMD" value="Run Command" />
+      <Item id="11" key="gb_CMD" value="Command" />
+      <Item id="12" key="label1" value="Address" />
+      <Item id="13" key="label2" value="CMD" />
+      <Item id="14" key="btn_SelectAll" value="Select All" />
+      <Item id="15" key="btn_InvertSelect" value="Invert Select" />
+      <Item id="16" key="rb_PlaySound" value="Play Sound" />
+      <Item id="17" key="gb_PlaySound" value="Sound File" />
+      <Item id="18" key="btn_Play" value="Play" />
+      <Item id="19" key="rb_RunProgram" value="Run Program" />
+      <Item id="20" key="gb_Program" value="Program" />
+      <Item id="21" key="btn_OK" value="OK" />
+      <Item id="22" key="btn_Cancel" value="Cancel" />
+    </frmAction>
+    
+    <frmAbout>
+      <Item id="0" key="frmAbout" value="About" />
+      <Item id="1" key="label1" value="iTron System" />
+      <Item id="2" key="lbl_Service" value="Service:" />
+      <Item id="3" key="label3" value="Copy right Caesar LAB    Carrey Group" />
+      <Item id="4" key="label2" value="Ver:" />
+      <Item id="5" key="lb_Info" value="Infomation" />
+    </frmAbout>
+    
+    <frmConnection>
+      <Item id="0" key="frmConnection" value="Connection Setting" />
+      <Item id="1" key="label2" value="Sending Delay：" />
+      <Item id="2" key="label3" value="ms" />
+      <Item id="3" key="rbCOM" value="COM" />
+      <Item id="4" key="rbNetWork" value="NetWork" />
+      <Item id="5" key="groupBox1" value="COM" />
+      <Item id="6" key="groupBox2" value="Network" />
+      <Item id="7" key="label8" value="Domain" />
+      <Item id="8" key="label1" value="Port" />
+      <Item id="9" key="cb_AutoConnection" value="Auto Connection" />
+      <Item id="10" key="btn_OK" value="OK" />
+      <Item id="11" key="btn_Cancel" value="Cancel" />
+    </frmConnection>
+  </Form>
+  <Dialog>
+    <!--<Title>
+      <Item id="0" key="0001" value="xx" />
+      <Item id="1" key="0002" value="添加测试" />
+      <Item id="2" key="0003" value="添加用户" />
+      <Item id="3" key="0004" value="修改密码" />
+    </Title>
+    <Message>
+      <Item id="0" key="0000" value="一切正常" />
+      <Item id="1" key="2001" value="用户名或密码错误" />
+      <Item id="5" key="2002" value="密码不一致" />
+      <Item id="6" key="2003" value="用户名已存在" />
+      <Item id="7" key="2004" value="添加用户成功" />
+    </Message>-->
+  </Dialog>
+</AirControl>
